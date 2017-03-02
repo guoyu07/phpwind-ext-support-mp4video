@@ -19,7 +19,7 @@ composer install medz/phpwind-ext-support-mp4video
 
 ### Download
 
-1. 点击 [下载插件](https://github.com/medz/phpwind-ext-support-mp4video/archive/master.zip) 下载插件
+1. [点击这里](https://github.com/medz/phpwind-ext-support-mp4video/archive/master.zip) 下载插件
 2. 解压 **zip** 归档，将目录重命名为 **SupportMP4Video**
 3. 将目录 **SupportMP4Video** 放入 `/src/extensions/` 目录下
 4. 进入后台，应用安装，找到 **SupportMP4Video** 点击安装
