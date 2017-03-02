@@ -3,6 +3,10 @@ Enable phpwind to support MP4 video playback.
 
 ## Installed
 
+安装插件，有两种方式，推荐 Composer 安装。
+
+⚠️：插件运行 [phpwind Fans](https://github.com/medz/phpwind) **>= v1.0.9** 版本之上，低于此版本，插件将无法运行。
+
 ### composer
 
 首先，进入phpwind根目录，然后执行：
@@ -11,7 +15,7 @@ Enable phpwind to support MP4 video playback.
 composer install medz/phpwind-ext-support-mp4video
 ```
 
->>> 执行完命令后进入后台，应用安装，找到 **SupportMP4Video** 点击安装
+> 执行完命令后进入后台，应用安装，找到 **SupportMP4Video** 点击安装
 
 ### Download
 
