@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+    <application>
+        <name>Support MP4 video</name>
+        <alias>SupportMP4Video</alias>
+        <version>1.0.0</version>
+        <pw-version>9.0</pw-version>
+        <type>app</type>
+        <description>Enable phpwind to support MP4 video playback.</description>
+        <charset>utf-8</charset>
+        <logo>images/logo.png</logo>
+        <website>https://github.com/medz/phpwind-ext-support-mp4video</website>
+        <author-name>Seven Du</author-name>
+        <author-email>shiweidu@outlook.com</author-email>
+        <author-icon>https://avatars.githubusercontent.com/u/5564821</author-icon>
+    </application>
+    <res>resource</res>
+    <inject-services>
+        <m_PwThreadDisplay>
+            <SupportMP4Video>
+                <class>\Pw\Ext\SupportMP4Video\Services\ThreadDisplayDo</class>
+                <description>Inject the service to "m_PwThreadDisplay" hook.</description>
+            </SupportMP4Video>
+        </m_PwThreadDisplay>
+    </inject-services>
+</manifest>

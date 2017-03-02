@@ -1,0 +1,24 @@
+{
+  "name": "medz/phpwind-ext-support-mp4video",
+  "type": "custom-folders",
+  "description": "Enable phpwind to support MP4 video playback.",
+  "keywords": ["medz", "phpwind", "video", "mp4", "pw"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Seven Du",
+      "email": "shiweidu@outlook.com",
+      "homepage": "https://github.com/medz",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "medz/composer-vendor-install-folders": "^1.0"
+  },
+  "support": {
+    "forum": "http://medz.cn"
+  },
+  "extra": {
+    "custom-path": "src/extensions/SupportMP4Video"
+  }
+}
