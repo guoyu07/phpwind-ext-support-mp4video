@@ -3,7 +3,7 @@ Enable phpwind to support MP4 video playback.
 
 ## Installed
 
-安装插件，有两个安装方式的支持，人选其一即可，分别是 `Composer` ， `Download` 。
+安装插件，有两个安装方式的支持，任选其一即可，分别是 `Composer` ， `Download` 。
 
 ⚠️：插件运行 [phpwind Fans](https://github.com/medz/phpwind) **>= v1.0.9** 版本之上，低于此版本，插件将无法运行。
 
