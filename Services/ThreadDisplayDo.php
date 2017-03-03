@@ -37,9 +37,11 @@ class ThreadDisplayDo extends PwThreadDisplayDoBase
 
             $src = sprintf('%s.mp4%s', $base, $query);
             $video = '
-                <video class="video-js" controls preload="auto" data-setup="{}" style="max-width: 755px; max-height: 425px;">
-                    <source src="%s" type="video/mp4">
-                </video>
+                <div style="width: 755px; height: 425px;">
+                    <video class="video-js" controls preload="auto" data-setup="{}" style="width: 100%%; height: 100%%">
+                        <source src="%s" type="video/mp4">
+                    </video>
+                </div>
             ';
 
             return sprintf($video, $src);
